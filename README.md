@@ -16,4 +16,4 @@ GUI for the SpigotPatcher app!
 ##JVM arguments:##
  * If you start the application with **-Dlanguage=en** JVM argument, your patcher will start with the selected language.
  
-![ScreenShot](http://content.screencast.com/users/Gerviba/folders/Jing/media/e1c68032-b4fb-49ab-bea7-d6289f738a8e/2014-09-13_1550.png)
+![ScreenShot](http://content.screencast.com/users/Gerviba/folders/Jing/media/139d0738-9668-45cb-9ee3-da8685f663ac/2014-09-13_1743.png)
