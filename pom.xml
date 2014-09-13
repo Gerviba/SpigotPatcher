@@ -4,7 +4,7 @@
 
     <groupId>org.spigotmc</groupId>
     <artifactId>patcher</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>SpigotPatcher</name>
@@ -38,6 +38,17 @@
 
     <build>
         <finalName>${project.name}</finalName>
+        
+        <resources>
+			<resource>
+				<directory>${project.basedir}</directory>
+				<targetPath>.</targetPath>
+				<includes>
+					<include>**/*.png</include>
+				</includes>
+			</resource>
+		</resources>
+		
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
